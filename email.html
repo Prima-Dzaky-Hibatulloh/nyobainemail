@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 2rem;
+        }
+        .email-link {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            background: linear-gradient(45deg, #1abc9c, #2ecc71);
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+            transition: all 0.3s ease;
+        }
+        .email-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(46, 204, 113, 0.6);
+            background: linear-gradient(45deg, #2ecc71, #1abc9c);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+    <h1>Hubungi Kami</h1>
+    <p>Silakan klik tombol di bawah untuk mengirim email kepada saya.</p>
+    
+    <!-- Kirim via Gmail -->
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=primadzakyhibatulloh@gmail.com">
+        Kirim Email via Gmail
+    </a>
+    <br><br>
+    
+    <!-- Kirim via Mailto -->
+    <a href="mailto:primadzakyhibatulloh@gmail.com?subject=Halo%20saya%20ingin%20bertanya&body=Tulis%20pesan%20Anda%20di%20sini.">
+        Kirim Email via Mailto
+    </a>
+</div>
+
+
+</body>
+</html>
